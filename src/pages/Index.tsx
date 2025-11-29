@@ -109,7 +109,7 @@ const Index = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-gray-50 to-blue-50">
+    <div className="min-h-screen bg-gradient-to-br from-green-50 to-emerald-50">
       <header className="bg-white border-b border-gray-200 sticky top-0 z-50 shadow-sm">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
@@ -202,23 +202,30 @@ const Index = () => {
                     </CardTitle>
                   </CardHeader>
                   <CardContent>
+                    <div className="mb-6 rounded-lg overflow-hidden">
+                      <img 
+                        src="https://cdn.poehali.dev/projects/c0cf7b1f-a35d-413b-8276-f64306cc6c69/files/e98ec580-53e6-40c3-93bc-84db721c6fe0.jpg" 
+                        alt="Урок математики в начальной школе"
+                        className="w-full h-64 object-cover"
+                      />
+                    </div>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                      <div className="bg-blue-50 p-4 rounded-lg border border-blue-100">
+                      <div className="bg-green-50 p-4 rounded-lg border border-green-100">
                         <Icon name="Sparkles" size={20} className="text-primary mb-2" />
                         <h4 className="font-semibold mb-1">Интерактивность</h4>
                         <p className="text-sm text-gray-600">Активное вовлечение учеников в процесс обучения</p>
                       </div>
-                      <div className="bg-blue-50 p-4 rounded-lg border border-blue-100">
+                      <div className="bg-green-50 p-4 rounded-lg border border-green-100">
                         <Icon name="LineChart" size={20} className="text-primary mb-2" />
                         <h4 className="font-semibold mb-1">Визуализация</h4>
                         <p className="text-sm text-gray-600">Наглядное представление абстрактных понятий</p>
                       </div>
-                      <div className="bg-blue-50 p-4 rounded-lg border border-blue-100">
+                      <div className="bg-green-50 p-4 rounded-lg border border-green-100">
                         <Icon name="Zap" size={20} className="text-primary mb-2" />
                         <h4 className="font-semibold mb-1">Мгновенная обратная связь</h4>
                         <p className="text-sm text-gray-600">Автоматическая проверка и корректировка</p>
                       </div>
-                      <div className="bg-blue-50 p-4 rounded-lg border border-blue-100">
+                      <div className="bg-green-50 p-4 rounded-lg border border-green-100">
                         <Icon name="User" size={20} className="text-primary mb-2" />
                         <h4 className="font-semibold mb-1">Индивидуальный темп</h4>
                         <p className="text-sm text-gray-600">Адаптация под уровень каждого ученика</p>
@@ -235,7 +242,14 @@ const Index = () => {
                     <CardDescription>Как интегрировать электронные ресурсы в урок</CardDescription>
                   </CardHeader>
                   <CardContent className="space-y-4">
-                    <div className="border-l-4 border-primary bg-blue-50 p-4 rounded-r-lg">
+                    <div className="mb-6 rounded-lg overflow-hidden">
+                      <img 
+                        src="https://cdn.poehali.dev/projects/c0cf7b1f-a35d-413b-8276-f64306cc6c69/files/2f3085b1-9e8d-410d-8bb7-2bb290ad34fd.jpg" 
+                        alt="Использование цифровых технологий в обучении"
+                        className="w-full h-64 object-cover"
+                      />
+                    </div>
+                    <div className="border-l-4 border-primary bg-green-50 p-4 rounded-r-lg">
                       <div className="flex items-center gap-2 mb-2">
                         <Icon name="Clock" size={18} className="text-primary" />
                         <h4 className="font-semibold">Начало урока (5-7 минут)</h4>
